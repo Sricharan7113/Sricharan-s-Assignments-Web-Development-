@@ -1,0 +1,331 @@
+* { 
+    margin:0%;
+    
+}
+
+/* Base-color */
+
+.base-color{
+    width:100%;
+    background-color:  #A2D9CE ;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Logo */
+
+.logo{
+    padding: 10px;
+    width:20%;
+    height:50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+    font-size: 15px;
+    background-color: cadetblue  ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+/* Navigation */
+
+.header-links{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+li{
+ padding-right: 20px;
+ cursor:pointer;
+}
+
+/* List-Contents */
+
+.list-items {
+    width:100%;
+    height:60px;
+    font-size: 20px;
+    font-family: Candara;
+     display:flex;
+    justify-content:space-between;
+    list-style-type: none;
+    line-height: 50px;
+    float:right;
+    
+}
+
+/* Bg-Color */
+
+body {
+    background-color: #F5EEF8;
+}
+ 
+/* Banner */
+
+.banner{
+
+    width: 100%;
+    height: 450px;
+    background-color: gray;
+    background-image: url('https://www.simform.com/wp-content/uploads/2020/08/Preview-custom-shopping-cart.png' );
+    background-size:100% 100% ;
+    transition:remove;
+    transition-duration: 1s;
+    -o-transition-delay: 4s;
+    display: flex;
+    align-items: center;
+}
+
+/* Banner Text */
+
+.banner-details{
+
+    margin-left:30px;   
+    width:20%;
+    height:auto;
+    word-wrap:break-word;
+    background-color:rgba(175, 175, 175, 0.35);
+    border-radius: 30px 0px 30px 0px;
+    padding: 20px;
+    line-height: 30px;
+    font-family: sans-serif;
+    color:darkslategrey;
+}
+
+/* Shop With Us! */
+
+.banner-title{
+    font-family: 'Times New Roman', Times, serif;
+    color:darkslategrey;
+}
+
+/* Shop Now! button */
+
+.btn{
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-width: 0px;
+    
+}
+.btn:hover{
+    background-color:#A2D9CE ;
+}
+
+/* Products */
+
+
+.our-products{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #c0e5fa;
+    display: flex;   
+    justify-content: center;
+
+}
+
+.products-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.product-area{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.products{
+    width:60%;
+    background-color:rgba(56, 119, 236, 0.26);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border-radius: 30px 0px 30px 0px;
+   
+}
+
+.product-img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor:crosshair;
+}
+
+.product-img>img{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.product-img>img:hover {
+    transform: scale(1.3);
+}
+
+.product-detail{
+    width: 100%;
+    height:250px;
+    padding:10px;    
+}
+
+.product-detail>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:20px;
+}
+
+.product-detail>h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+    line-height: 50px;
+    font-size:18px;
+}
+
+.product-detail>p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 25px;
+}
+
+/* About Us */
+
+.about-us{
+    width:100%;
+    background-color:rgba(20, 150, 132, 0.616);
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-container{
+    width:40%;
+    word-wrap: break-word;
+    background-color:rgba(195, 241, 241, 0.35);
+    border-radius: 30px 0px 30px 0px;
+    margin: 50px;
+    padding:10px;
+    flex-wrap: wrap;
+}
+
+
+.about-container>p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
+    
+}
+
+.about-pic{
+    border-radius: 30px 0px 30px 0px;
+    margin: 20px;
+}
+
+/* Footer */
+
+.footer{
+    width:100%;
+    background-color: rgba(117, 183, 236, 0.61);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px;
+}
+
+.social-media{
+    margin:20px;
+    display: flex;
+}
+
+.Social-media-links{
+    line-height: 50px;
+    list-style-type:none;
+}
+
+/* For Mobiles */
+
+@media (max-width:450px) {
+
+    .base-color{
+        width:100%;
+        justify-content: center;
+    }
+
+    .logo{
+        width:100%;
+        justify-content: center;
+        display: flex;
+    }    
+
+    
+    
+    .header-links{
+        width:100%;
+        
+
+    }
+    .list-items{
+        width:100%;
+        height:auto;
+        text-align:center;
+        font-size: 20px;
+        box-shadow: 0 0 1px gray;
+        flex-direction: column ;
+    }
+
+    .banner{
+
+        height: 200px;
+    }
+
+    .banner-details{
+        width: 100%;
+        margin: 0%;
+        border-radius:none;
+    }
+
+    .banner-title{
+        font-size: 30px;
+    }
+
+   
+
+    
+
+    .products{
+        width:60%;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+   
+
+
+   .about-container{
+       height:1000px;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+
+   .about-pic{
+       width:500px;
+       height:400px;
+   }
+
+   
+
+    
+
